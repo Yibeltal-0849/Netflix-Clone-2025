@@ -1,0 +1,9 @@
+API key=532f03365d8c5b52925170b1c91516f8
+baseURL for original image=https://image.tmdb.org/t/p/original
+
+to get genres id
+https://api.themoviedb.org/3/genre/movie/list?api_key=532f03365d8c5b52925170b1c91516f8
+
+
+API Read Access Token=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MzJmMDMzNjVkOGM1YjUyOTI1MTcwYjFjOTE1MTZmOCIsIm5iZiI6MTczOTU5NzgxNy43MTYsInN1YiI6IjY3YjAyN2Y5YWY5YjBjYWFlMTM1YTg4YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-ib8iunbc6KhP6sG-FYCayDlZjfhh4GVy-_4Y5j9Exs
+
