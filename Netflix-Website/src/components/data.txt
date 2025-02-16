@@ -1,5 +1,6 @@
 API key=532f03365d8c5b52925170b1c91516f8
 baseURL for original image=https://image.tmdb.org/t/p/original
+baseURL for all =https://api.themoviedb.org/3
 
 to get genres id
 https://api.themoviedb.org/3/genre/movie/list?api_key=532f03365d8c5b52925170b1c91516f8
