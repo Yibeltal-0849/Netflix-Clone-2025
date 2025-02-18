@@ -7,7 +7,7 @@
   color: grey;
   display: flex;
   justify-content: center;
-  margin-top: 550px;
+  /* margin-top: 550px; */
 }
 .footer_inner_container {
   width: 77%;

@@ -1,6 +1,6 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
 // const API_KEY = process.env.API_KEY;
-//process.env,stores all the environment variables available to your application, example API KEY
+//import.meta.env,stores all the environment variables available to your application, example API KEY
 const requests = {
   FetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en_US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,

@@ -4,14 +4,15 @@
 }
 .banner {
   margin-top: -10vh;
-  height: 80vh;
-  margin-bottom: -80vh;
+  height: 100vh;
+  margin-bottom: -80px;
   color: white;
   object-fit: contain;
 }
 .banner_contents {
   margin-left: 30px;
   padding-top: 250px;
+  height: 190px;
 }
 .banner_title {
   font-size: 3rem;
@@ -25,7 +26,7 @@
   padding: 1rem 0;
   font-size: 1rem;
   max-width: 360px;
-  height: 90px;
+  height: 80px;
 }
 
 .banner_button {
@@ -39,10 +40,23 @@
   padding: 1rem 3rem;
   margin-right: 2rem;
   background-color: rgba(51, 51, 51, 0.5);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
 }
 .play {
   color: #000;
   background-color: #fff;
+  margin-top: 16px;
+}
+.my_list {
+  background-color: rgb(61, 57, 57);
+  color: white;
 }
 
 .banner_button:hover {
@@ -51,10 +65,11 @@
   transition: all0.2s;
 }
 .banner_fadeBotton {
-  height: 40vh;
+  height: 60vh;
   background-image: linear-gradient(
     180deg,
     transparent,
-    /* rgb(37, 37, 37, 0.91), */ #bbb2ab /* rgb(71, 93, 87, 0.91)  */ /* #111 */
+    rgb(37, 37, 37, 0.91),
+    #111
   );
 }
