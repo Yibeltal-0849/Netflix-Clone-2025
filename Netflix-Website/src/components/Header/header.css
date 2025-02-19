@@ -8,17 +8,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
+  background-color: transparent;
   height: 10vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
 }
-.nav_black {
-  background-color: rgb(20, 20, 20);
+.header_outer_container.scrolled {
+  background-color: black;
 }
+
 .header_container {
   width: 90%;
   display: flex;
